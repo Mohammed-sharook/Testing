@@ -1,8 +1,8 @@
-import unitesting
+import unittest
 import arithmetics
 
 
-class TestTesting(unitesting.TestCase):
+class TestTesting(unittest.TestCase):
 
     def test_add(self):
         self.assertEqual(arithmetics.add(10, 5), 15)
@@ -21,4 +21,4 @@ class TestTesting(unitesting.TestCase):
 
 
 if __name__ == "__main__":
-    unitesting.main()
+    unittest.main()
